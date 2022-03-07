@@ -5,7 +5,7 @@ Directorio que contiene todas las prácticas de la misión FrontEnd de Launch X.
 >
 2. HTML  - - - - -  LISTO.
 >
-3. CSS  - - - - -  PENDIENTE.
+3. CSS   - - - - -  PENDIENTE.
 
 
 Por `@GaiskaSalomon`
