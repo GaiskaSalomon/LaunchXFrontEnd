@@ -4,7 +4,8 @@ Directorio que contiene todas las prácticas de la misión FrontEnd de Launch X.
 <br>
 1. INTRO ----------> LISTO.
 2. HTML -----------> LISTO.
-3. CSS -------------> PENDIENTE.
+3. CSS -------------> LISTO.
+4. Java script -----> PENDIENTE.
 <br>
 <br>
 
