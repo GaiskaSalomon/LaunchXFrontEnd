@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --white: rgb(255, 255, 255);
+    --blue: rgb(84, 95, 201);
+    --grey: rgb(132, 132, 145);
+    --dark-blue: rgb(0, 0, 100);
+    --dark-grey: rgb(57, 53, 56);
+    --box-shadow: 0 .5rem 1.5rem rgba(11, 8, 182, 0.3);
+}
+
+*{
+    font-family: 'League Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    gap: 2px;
+    height: 100vh;
+}
+
+.header{
+    grid-column: 1 / span 10;
+    grid-row: 1 / 2;
+    padding: 1rem 7%;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 25px;
+    color: var(--blue);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar a{
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    color: var(--grey);
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: var(--white);
+    background: var(--blue);
+    box-shadow: var(--box-shadow);
+}
+
+.sect-b, .sect-c,
+.sect-g, .sect-h, .sect-i, .footer{
+    grid-column: 1 / span 10;
+}
+.sect-a{
+    margin: 7rem;
+    grid-row: 2 / 3;
+    grid-column: 1 / 6;
+}
+
+.img-container-a{
+    display: flex;
+    align-items: center;
+    margin-right: 10rem;
+    grid-row: 2 / 3;
+    grid-column: 6 / 11;
+}
+
+.img-ar{
+    width: 90%;
+}
+
+.title{
+    font-size: 40px;
+    padding: 2rem 0;
+}
+
+.paragraph{
+    font-size: 20px;
+    padding: 1rem 0;
+}
+
+.p-sect-a-container{
+    height: auto;
+    width: 300px;
+    padding: 2rem 0;
+}
+
+.icon-sect-a{
+    margin-right: 0.3rem;
+    margin-left: 1rem;
+    width: 20px;
+}
+
+.p-sect-a{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sect-b{
+    grid-row: 3 / 4;
+}
+
+.sect-c{
+    display: flex;
+    justify-content: center;
+    grid-row: 4 / 5;
+}
+
+.img-sect-c{ 
+    margin: 0.5rem 0.5rem 0.5rem 2.5%;
+    width: 800px;
+}
+
+.sect-d{
+    grid-row: 5 / 6;
+    grid-column: 1 / 6;
+    margin: 2rem 7rem;
+}
+
+.img-blank{
+    grid-row: 5 / 6;
+    grid-column: 6 / 11;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 100px;
+}
+
+.subtitle-1{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 2rem 0;
+}
+
+.sect-e{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: 6 / 7;
+    grid-column: 1 / span 10;
+}
+
+.icon-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(210, 217, 255);
+    border-radius: 10%;
+}
+
+.paragraph-cards{
+    font-size: 14px;
+    padding: 0 1rem;
+}
+
+.subtitle-2{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1rem 1rem;
+}
+
+.cards{
+    width: 200px;
+    height: 225px;
+    margin: 10px;
+    border: 0.2px solid rgba(207, 207, 207, 30%);
+    border-radius: 5%;
+}
+
+.cards:hover{
+    box-shadow: var(--box-shadow);
+}
+
+.icon-cent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sect-f{
+    grid-row: 7 / 8;
+    grid-column: 6 / 11;
+    margin: 2rem 7rem;
+}
+
+.subtitle-3{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 2rem 0;
+}
+
+.img-container-f{
+    display: flex;
+    align-items: center;
+    margin-left: 10rem;
+    grid-row: 7 / 8;
+    grid-column: 1 / 6;
+}
+
+.img-fl{
+    width: 90%;
+}
+
+.subtitle-4{
+    padding: .5rem 0;
+    font-size: 15px;
+}
+
+.paragraph-sub4{
+    font-size: 12px;
+}
+
+.sect-g{
+    grid-row: 9 / 10;
+}
+
+.sect-h{
+    grid-row: 10 / 11;
+}
+
+.sect-i{
+    grid-row: 11 / 12;
+}
+
+.footer{
+    grid-row: 12 / 13;
+}
