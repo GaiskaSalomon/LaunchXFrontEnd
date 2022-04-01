@@ -1,4 +1,4 @@
-# LaunchX FrontEnd Mission
+# Launch X FrontEnd Mission
 Directorio que contiene todas las prácticas de la misión FrontEnd de Launch X.
 <br>
 <br>
